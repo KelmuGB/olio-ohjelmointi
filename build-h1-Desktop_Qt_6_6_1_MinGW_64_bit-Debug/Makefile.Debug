@@ -107,7 +107,7 @@ compiler_clean:
 debug/functions.o: ../h1/functions.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug/functions.o ../h1/functions.cpp
 
-debug/main.o: ../h1/main.cpp 
+debug/main.o: ../h1/main.cpp ../h1/functions.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug/main.o ../h1/main.cpp
 
 ####### Install
