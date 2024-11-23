@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    Chef objectChef("ordon Ramsay");
+    Chef objectChef("Gordon Ramsay");
     ItalianChef objectItalienChef("Anthony Bourdain");
 
     objectChef.makeSalad();

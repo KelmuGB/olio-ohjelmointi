@@ -10,5 +10,5 @@ Animal::~Animal() {
 
 void Animal::callOut()
 {
-    cout << "Eläin ääntelee" << endl;
+    cout << "Elain aantelee" << endl;
 }
